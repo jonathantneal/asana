@@ -5,7 +5,7 @@ import (
 
 	"github.com/codegangsta/cli"
 
-	"github.com/thash/asana/api"
+	"github.com/jonathantneal/asana/api"
 )
 
 func Done(c *cli.Context) {

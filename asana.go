@@ -5,14 +5,14 @@ import (
 
 	"github.com/codegangsta/cli"
 
-	"github.com/thash/asana/commands"
+	"github.com/jonathantneal/asana/commands"
 )
 
 func main() {
 	app := cli.NewApp()
 	app.Name = "asana"
 	app.Version = "0.2.1"
-	app.Usage = "asana cui client ( https://github.com/thash/asana )"
+	app.Usage = "asana cui client ( https://github.com/jonathantneal/asana )"
 
 	app.Commands = defs()
 	app.Run(os.Args)

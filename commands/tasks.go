@@ -10,8 +10,8 @@ import (
 
 	"github.com/codegangsta/cli"
 
-	"github.com/thash/asana/api"
-	"github.com/thash/asana/utils"
+	"github.com/jonathantneal/asana/api"
+	"github.com/jonathantneal/asana/utils"
 )
 
 const (
